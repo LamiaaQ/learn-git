@@ -13,7 +13,7 @@
 
 ```git
 
-git tag -a -m "tag رسالة او سبب وضع" "tag name "  "المراد وضعه لها(commit)إسم النقطة "
+git tag -a -m "tag message" <tagName> <commitNumber>
 
 ```
 <div dir='rls' align='right'>
@@ -34,5 +34,50 @@ git tag -a -m "version 1 " v0.1 ee74f0c
 </div>
 
 ```git
+
 git tag
+
+```
+
+<div dir='rls' align='right'>
+  
+طريقة حذف (tag) 
+</div>
+
+```git
+git tag -d  <tagName>
+
+```
+<div dir='rls' align='right'>
+  
+مثال للحذف: 
+</div>
+
+```git
+git tag -d  v0.1 
+
+```
+
+<div dir='rls' align='right'>
+  
+طريقة عرض معلومات (tag)
+
+</div>
+
+```git
+
+git show <tagName>
+
+``` 
+
+<div dir='rls' align='right'>
+  
+مثال للعرض:
+
+  </div>
+
+
+```git
+$ git show v0.1
+
 ```
